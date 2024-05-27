@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/mahindra.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  padding: 35px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+ margin: 0 30px; 
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+.book ul li {
+  list-style: none;
+}
+
+.book ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #9e1521;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #e0e0e0;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+.content {
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.content h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.content p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}

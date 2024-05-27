@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kumar+One+Outline&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #d1d1d1;
+}
+.navbar {
+  background-color: #e10600;
+  height: 71px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+}
+.raceDetails {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: #ffffff;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.estonia {
+  font-family: "Platypi", serif;
+  font-weight: bold;
+  font-size: 62px;
+}
+.doisMilVinte {
+  font-family: "Kumar One Outline", system-ui;
+}
+.data {
+  font-family: "Platypi", serif;
+  background-color: #15151e;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #15151e;
+  height: 60px;
+}
+.news ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+.news ul li a {
+  text-decoration: underline;
+  color: #ffffff;
+  font-family: "Platypi", serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 270px 50px;
+  height: 1000px;
+}
+.main h3 {
+  color: #000000;
+  font-family: "Platypi", serif;
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+.flag {
+  display: flex;
+  gap: 20px;
+}
+.flag p {
+  font-family: "Platypi", serif;
+  font-weight: bolder;
+}
